@@ -1,5 +1,6 @@
-echo "Updating the System Repos"
+echo "\nUpdating the System Repos \n"
 sudo apt update
 echo " "
-echo "Installaing Docker" 
-sudo apt docker.io
+echo "\nInstallaing Docker\n" 
+sudo apt install docker.io -y
+echo "\nInstallataion Finished\n"
