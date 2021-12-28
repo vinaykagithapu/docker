@@ -1,6 +1,6 @@
-echo "\nUpdating the System Repos \n"
+echo -e "\nUpdating the System Repos \n"
 sudo apt update
-echo " "
-echo "\nInstalling Docker Daemon and Client \n" 
+
+echo -e "\nInstalling Docker Daemon and Client \n" 
 sudo apt install docker.io -y
-echo "\nInstallation Finished\n"
+echo -e "\nInstallation Finished\n"
